@@ -10,13 +10,63 @@ div.inspirational
 {
 	padding-top: 50px;
 	padding-bottom: 50px;
+	color: #000000;
+}
+
+div.container
+{
+padding-left: 50px
+}
+
+div.col-md-4
+{
+padding-bottom: 50px
 }
 
 img
 {
-padding-top: 50px;
-padding-right: 30px;
-padding-bottom: 50px;
-padding left: 30px;
+height: 350px;
+width: 250px;
 }
+
+.hovereffect {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+  background: #7B4397;
+}
+
+.hovereffect .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  padding: 50px 20px;
+}
+
+.hovereffect img {
+  display: block;
+  position: relative;
+  max-width: 250;
+  width: calc(100% + 20px);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(-10px,0,0);
+  transform: translate3d(-10px,0,0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.hovereffect:hover img {
+  opacity: 0.4;
+  filter: alpha(opacity=40);
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
 
