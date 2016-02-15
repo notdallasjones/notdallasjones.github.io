@@ -23,17 +23,26 @@ padding-right: 50px;
 vertical-align: center;
 }
 
+div.imagebox
+{
+	display: inline-block;
+	width: calc(300px + 20px);
+	height: cal(418px + 20px);
+	margin: 1em;
+}
+
+div.img
+{
+width: 300px;
+height: 418px;
+}
+
+
 div.col-md-4
 {
 padding-bottom: 50px
 }
 
-img
-{
-height: 350px;
-width: 250px;
-
-}
 
 .hovereffect {
   width: 100%;
@@ -90,5 +99,3 @@ div.overlay
 	width: 250;
 	height: 350;
 }
-
-
