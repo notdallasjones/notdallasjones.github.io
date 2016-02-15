@@ -9,25 +9,21 @@ body
 
 div.inspirational
 {
-	padding-top: 50px;
-	padding-bottom: 50px;
-	padding-right: 50px;
-	padding-left: 50px;4
+
 	color: #000000;
 }
 
 div.container
 {
-padding-left: 50px;
-padding-right: 50px;
+padding: 25px;
 vertical-align: center;
 }
 
 div.imagebox
 {
 	display: inline-block;
-	width: calc(300px + 20px);
-	height: cal(418px + 20px);
+	width: 300px;
+	height: 418px;
 	margin: 1em;
 }
 
@@ -35,12 +31,6 @@ div.img
 {
 width: 300px;
 height: 418px;
-}
-
-
-div.col-md-4
-{
-padding-bottom: 50px
 }
 
 
