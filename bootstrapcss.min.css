@@ -1,9 +1,10 @@
 body
 {
 	font-family: Cochin;
-	background-color: #ffffff;
+	background-color: #fffff0;
 	color: #000000;	
 	padding-top: 50px;
+
 }
 
 div.inspirational
@@ -15,7 +16,8 @@ div.inspirational
 
 div.container
 {
-padding-left: 50px
+padding-left: 50px;
+padding-right: 50px
 }
 
 div.col-md-4
@@ -27,6 +29,7 @@ img
 {
 height: 350px;
 width: 250px;
+
 }
 
 .hovereffect {
