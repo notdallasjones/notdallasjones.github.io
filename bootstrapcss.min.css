@@ -39,6 +39,13 @@ p
 	text-align: left;
 }
 
+
+hr { 
+	width:100%; 
+	height:1px; 
+	background: #fff 
+}
+
 div.p1
 {
 	font-size: 18px;
